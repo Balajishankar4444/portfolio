@@ -64,17 +64,17 @@ const projects: ProjectItem[] = [
     },
     highlights: {
       en: [
-        'Secure multi-step tenant & host identity verification flows',
-        'Integrated Razorpay checkout with automated payout handling',
-        'Real-time listing discovery, geolocation filters and direct booking',
-      ],
+  'Built secure multi-step host & tenant verification with Firebase Authentication and OTP-based access.',
+  'Developed real-time room discovery with location filters, responsive Next.js UI and Firebase Firestore data.',
+  'Integrated Razorpay payments with booking confirmation and automated host payout workflows.'
+],
       de: [
-        'Sichere mehrstufige Verifizierungs-Workflows für Mieter & Vermieter',
-        'Integrierte Razorpay-Zahlungsabwicklung mit Sofortauszahlung',
-        'Echtzeit-Immobiliensuche, Geofilter und Direktbuchung',
-      ],
+  'Entwickelte sichere mehrstufige Verifizierung für Mieter & Vermieter mit Firebase Authentication und OTP-Zugriff.',
+  'Entwickelte eine Echtzeit-Zimmersuche mit Standortfiltern, responsiver Next.js-Oberfläche und Firebase Firestore.',
+  'Integrierte Razorpay-Zahlungen mit Buchungsbestätigung und automatisierten Auszahlungs-Workflows für Vermieter.'
+],
     },
-    tags: ['Next.js', 'React', 'Firebase', 'Razorpay', 'Tailwind CSS'],
+    tags: ['Next.js', 'React', 'TypeScript', 'Firebase', 'Razorpay', 'Tailwind CSS', 'Vercel', 'SEO'],
     url: 'https://mietit.com',
     featured: true,
   },
@@ -91,17 +91,17 @@ const projects: ProjectItem[] = [
     },
     highlights: {
       en: [
-        'Zero-upload client-side WebAudio decoding & DSP computation',
-        'Standard compliance: EBU R128, ITU-R BS.1770 & True Peak metrics',
-        'Instant loudness graph rendering and automated QC report export',
-      ],
-      de: [
-        'Lokale WebAudio-Dekodierung & DSP-Verarbeitung ohne Cloud-Upload',
-        'Standard-Validierung: EBU R128, ITU-R BS.1770 & True-Peak-Messung',
-        'Echtzeit-Loudness-Diagramme und automatische QC-Zertifikate',
-      ],
+  'Built a zero-upload browser audio engine using WebAudio, Web Workers and custom DSP.',
+  'Implemented professional loudness and True Peak analysis based on ITU-R BS.1770 and EBU R128 standards.',
+  'Delivered automated PASS/FAIL QC reports with a secure Creem payment flow for Pro users.'
+],
+      en: [
+  'Built a zero-upload browser audio engine using WebAudio, Web Workers and custom DSP.',
+  'Implemented professional loudness and True Peak analysis based on ITU-R BS.1770 and EBU R128 standards.',
+  'Delivered automated PASS/FAIL QC reports with a secure Creem payment flow for Pro users.'
+],
     },
-    tags: ['Next.js', 'WebAudio API', 'Audio DSP', 'TypeScript', 'Web Workers'],
+    tags: ['Next.js', 'TypeScript', 'WebAudio API', 'Audio DSP', 'Web Workers', 'ITU-R BS.1770'],
     url: 'https://sonichecks.com',
     featured: true,
   },
@@ -118,23 +118,23 @@ const projects: ProjectItem[] = [
     },
     highlights: {
       en: [
-        'Normalized price-per-100g algorithm across dozens of roasters',
-        'Delivered-basket cost optimization reducing shipping overhead',
-        'High-performance PostgreSQL data pipeline via Prisma ORM',
-      ],
+  'Built a price-normalization engine to compare coffee from different roasters on a consistent per-100g basis.',
+  'Optimized the delivered basket cost by combining product prices, shipping fees and free-shipping thresholds.',
+  'Built a scalable PostgreSQL data pipeline with Prisma and Supabase for products, variants and price history.'
+],
       de: [
-        'Standardisierter Preis-pro-100g-Algorithmus über mehrere Röster',
-        'Warenkorb-Kostenoptimierung zur Reduzierung von Versandkosten',
-        'Hochperformante PostgreSQL-Datenbankpipeline via Prisma ORM',
-      ],
+  'Entwickelte eine Preis-Normalisierungslogik zum fairen Vergleich verschiedener Röster auf Basis von 100 g.',
+  'Optimierte die Gesamtkosten des Warenkorbs durch Kombination von Produktpreisen, Versandkosten und Freigrenzen.',
+  'Entwickelte eine skalierbare PostgreSQL-Datenpipeline mit Prisma und Supabase für Produkte, Varianten und Preishistorien.'
+],
     },
-    tags: ['Next.js', 'Prisma ORM', 'Supabase', 'PostgreSQL', 'TypeScript'],
+    tags: ['Next.js', 'TypeScript', 'Prisma ORM', 'Supabase', 'PostgreSQL', 'Affiliate APIs'],
     url: 'https://www.leaftobean.com',
     featured: true,
   },
   {
     key: 'infinitymerge',
-    title: 'Infinity Merge',
+    title: 'Infinity Merge 2048 (Game)',
     category: 'android',
     type: 'Android Game / Puzzle',
     badge: 'Google Play Store',
@@ -145,23 +145,23 @@ const projects: ProjectItem[] = [
     },
     highlights: {
       en: [
-        'Custom puzzle grid logic with reactive state machine architecture',
-        'Hardware-accelerated animations & smooth drag-and-merge controls',
-        'Local score persistence, statistics and Google Play integration',
-      ],
+  'Built custom puzzle-grid logic with reactive state management for the core game engine.',
+  'Created smooth drag-and-merge interactions with responsive UI animations.',
+  'Added Firebase-powered global rankings, score persistence, statistics and Google Play integration.'
+],
       de: [
-        'Eigene Puzzle-Grid-Logik mit reaktiver State-Machine-Architektur',
-        'Hardwarebeschleunigte Animationen und intuitive Gestensteuerung',
-        'Lokale Highscore-Speicherung, Statistiken und Google Play Release',
-      ],
+  'Entwickelte eine eigene Puzzle-Grid-Logik mit reaktivem State Management für die Game-Engine.',
+  'Entwickelte flüssige Drag-and-Merge-Interaktionen mit responsiven UI-Animationen.',
+  'Implementierte globale Rankings mit Firebase sowie Highscore-Speicherung, Statistiken und Google-Play-Integration.'
+],
     },
-    tags: ['Android SDK', 'Java / Kotlin', 'Game Architecture', 'UI Animations', 'Google Play'],
+    tags: ['Kotlin', 'Android SDK', 'Firebase', 'Game Architecture', 'UI Animations', 'Google Play'],
     url: 'https://play.google.com/store/apps/details?id=com.balaji.infinitymerge',
     featured: false,
   },
   {
     key: 'smart-converter',
-    title: 'Smart Converter',
+    title: 'Smart Unit Converter',
     category: 'android',
     type: 'Android Utility App',
     badge: 'Google Play Store',
@@ -172,17 +172,17 @@ const projects: ProjectItem[] = [
     },
     highlights: {
       en: [
-        'Comprehensive conversion algorithms across 15+ unit categories',
-        'Zero-latency offline arithmetic with floating-point precision guards',
-        'Modern Material UI with fluid responsive input controls',
-      ],
+  'Built a simple Android unit converter to explore mobile app development.',
+  'Implemented accurate unit conversions with clean input handling and validation.',
+  'Designed a responsive Material UI with a focus on simplicity and usability.'
+],
       de: [
-        'Umfassende Umrechnungsalgorithmen für über 15 Einheiten-Kategorien',
-        'Offline-Berechnungen ohne Latenz mit präziser Rundungslogik',
-        'Modernes Material-Design mit flüssiger Eingabesteuerung',
-      ],
+  'Entwickelte einen einfachen Android-Einheitenumrechner als Einstieg in die App-Entwicklung.',
+  'Implementierte präzise Einheitenumrechnungen mit sauberer Eingabeverarbeitung und Validierung.',
+  'Entwickelte eine responsive Material-Oberfläche mit Fokus auf Einfachheit und Benutzerfreundlichkeit.'
+],
     },
-    tags: ['Android SDK', 'Java / Kotlin', 'Material Design', 'Edge-Case QC', 'Google Play'],
+    tags: ['Android SDK', 'Kotlin', 'Material Design', 'Edge-Case QC', 'Google Play'],
     url: 'https://play.google.com/store/apps/details?id=com.balaji.smart_converter',
     featured: false,
   },
