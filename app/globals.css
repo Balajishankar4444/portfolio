@@ -218,7 +218,7 @@ button {
 
 .nav-number {
   font-family: 'DM Mono', monospace;
-  color: #454e56;
+  color: #85939c;
   font-size: 9px;
 }
 
@@ -329,7 +329,7 @@ button {
   font-family: 'DM Mono', monospace;
   font-size: 11px;
   font-weight: 500;
-  color: #566069;
+  color: #94a1a9;
   letter-spacing: 0.15em;
   margin-bottom: 15px;
 }
@@ -432,9 +432,9 @@ button {
 }
 
 .hero-meta small {
-  color: #505a62;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 8.5px;
   letter-spacing: 0.1em;
 }
 
@@ -513,7 +513,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #545f67;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
   font-size: 9px;
 }
@@ -598,7 +598,7 @@ button {
 .code-lines i {
   display: inline-block;
   width: 28px;
-  color: #394249;
+  color: #6c7982;
   font-style: normal;
 }
 
@@ -643,9 +643,9 @@ button {
 }
 
 .hero-card-bottom small {
-  color: #4e5960;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 0.1em;
 }
 
@@ -692,9 +692,9 @@ button {
   display: flex;
   align-items: center;
   gap: 15px;
-  color: #454e55;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.15em;
 }
 
@@ -703,7 +703,7 @@ button {
   height: 1px;
   background: linear-gradient(
     90deg,
-    #414a50,
+    #697882,
     transparent
   );
 }
@@ -725,9 +725,9 @@ button {
 }
 
 .trust-inner span {
-  color: #4d565d;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 10px;
   letter-spacing: 0.12em;
 }
 
@@ -754,9 +754,9 @@ button {
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #69747c;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 9px;
+  font-size: 9.5px;
   letter-spacing: 0.13em;
   margin-bottom: 25px;
 }
@@ -1020,9 +1020,9 @@ button {
 .experience-main > small {
   display: block;
   margin-top: 7px;
-  color: #566168;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 9px;
 }
 
 .experience-main ul {
@@ -1096,9 +1096,9 @@ button {
 .value-card-top {
   display: flex;
   justify-content: space-between;
-  color: #4b565d;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 9px;
+  font-size: 9.5px;
 }
 
 .value-card-top div {
@@ -1150,9 +1150,9 @@ button {
 }
 
 .project-count {
-  color: #4b555d;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 9px;
   white-space: nowrap;
 }
 
@@ -1734,9 +1734,9 @@ button {
 
 .highlights-label {
   display: block;
-  color: #5d6870;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 8.5px;
   letter-spacing: 0.08em;
   margin-bottom: 8px;
 }
@@ -1859,13 +1859,13 @@ button {
 }
 
 .skill-index {
-  color: #4d5860;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 9px;
+  font-size: 9.5px;
 }
 
 .skill-top svg {
-  color: #4e5960;
+  color: #85939c;
 }
 
 .skill-card h3 {
@@ -1987,9 +1987,9 @@ a.contact-link:hover {
 }
 
 .contact-link small {
-  color: #4f5961;
+  color: #94a1a9;
   font-family: 'DM Mono', monospace;
-  font-size: 7px;
+  font-size: 8px;
   letter-spacing: 0.12em;
 }
 
@@ -2001,7 +2001,7 @@ a.contact-link:hover {
 }
 
 .contact-link > svg:last-child {
-  color: #59646b;
+  color: #85939c;
 }
 
 .big-contact-button {
@@ -2043,9 +2043,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #444e55;
+  color: #85939c;
   font-family: 'DM Mono', monospace;
-  font-size: 8px;
+  font-size: 9px;
   letter-spacing: 0.05em;
 }
 

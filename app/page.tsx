@@ -202,7 +202,7 @@ const copy = {
     hero:
       'I break software, automate the boring stuff, and chase the next big idea in tech',
     sub:
-      'Software Test Engineer with 2+ years of testing & automation experience, automotive validation exposure, and a growing portfolio of products built from scratch.',
+      'Software Test Engineer with 3+ years of testing & automation experience, automotive validation exposure, and a growing portfolio of products built from scratch.',
     cta: 'Explore my work',
     cv: 'Download CV',
     status: 'Open to meaningful engineering opportunities',
@@ -618,7 +618,7 @@ export default function Home() {
 
               <div>
                 <small>EXPERIENCE</small>
-                <strong>2+ Years</strong>
+                <strong>3+ Years</strong>
               </div>
             </div>
           </div>
@@ -797,21 +797,17 @@ export default function Home() {
 
       <section className="trust-strip">
         <div className="container trust-inner">
-          <span>ENGINEERING PROFILE</span>
+          <strong>ADAS & SOFTWARE TESTING</strong>
 
           <div />
 
-          <strong>
-            Mercedes-Benz
-          </strong>
-
-          <span>QA & AUTOMATION</span>
+          <strong>TEST AUTOMATION & VALIDATION</strong>
 
           <div />
 
-          <strong>
-            Product Builder
-          </strong>
+          <strong>Automobile, Web, Mobile</strong>
+
+          <div />
 
           <span>GERMANY</span>
         </div>
@@ -841,7 +837,7 @@ export default function Home() {
 
             <div className="stats">
               <div>
-                <strong>2+</strong>
+                <strong>3+</strong>
                 <span>Years testing</span>
               </div>
 
@@ -1338,6 +1334,11 @@ function ValueCard({
   );
 }
 
+const SONIC_WAVE_HEIGHTS = [
+  34, 44, 37, 17, 30, 43, 39, 21, 26, 42, 42, 25, 22, 40, 43, 29, 18, 38, 44,
+  33, 13, 35, 44, 36,
+];
+
 function ProjectCard({
   p,
   i,
@@ -1434,11 +1435,11 @@ function ProjectCard({
               <span className="dsp-pass">PASSED</span>
             </div>
             <div className="mini-wave">
-              {Array.from({ length: 24 }).map((_, index) => (
+              {SONIC_WAVE_HEIGHTS.map((height, index) => (
                 <span
                   key={index}
                   style={{
-                    height: `${12 + Math.abs(Math.sin((index + 1) * 0.75)) * 32}px`,
+                    height: `${height}px`,
                   }}
                 />
               ))}
