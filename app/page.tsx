@@ -23,9 +23,11 @@ import {
   Mail,
   MapPin,
   Menu,
+  Moon,
   SlidersHorizontal,
   Smartphone,
   Sparkles,
+  Sun,
   X,
   Zap,
 } from 'lucide-react';
@@ -305,9 +307,27 @@ function SectionLabel({
 
 export default function Home() {
   const [lang, setLang] = useState<'en' | 'de'>('en');
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [menu, setMenu] = useState(false);
   const [cursor, setCursor] = useState({ x: 0, y: 0 });
   const [projectFilter, setProjectFilter] = useState<'all' | 'web' | 'android'>('all');
+
+  useEffect(() => {
+    const saved = localStorage.getItem('portfolio-theme') as 'dark' | 'light' | null;
+    if (saved === 'light' || saved === 'dark') {
+      setTheme(saved);
+      document.documentElement.setAttribute('data-theme', saved);
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const next = theme === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('portfolio-theme', next);
+  };
 
   const t = copy[lang];
 
@@ -418,6 +438,15 @@ export default function Home() {
           </div>
 
           <div className="nav-actions">
+            <button
+              className="theme-toggle"
+              onClick={toggleTheme}
+              aria-label={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+              title={theme === 'dark' ? 'Switch to light theme' : 'Switch to dark theme'}
+            >
+              {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
+            </button>
+
             <button
               className="lang"
               onClick={() =>
