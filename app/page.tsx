@@ -135,7 +135,7 @@ const projects: ProjectItem[] = [
       ],
     },
     tags: ['Next.js', 'TypeScript', 'Prisma ORM', 'Supabase', 'PostgreSQL', 'Affiliate APIs'],
-    url: 'https://www.leaftobean.com',
+    url: 'https://beanfilter.vercel.app/',
     featured: true,
   },
   {
