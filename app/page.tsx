@@ -37,6 +37,7 @@ export interface ProjectItem {
   type: string;
   badge: string;
   platform: string;
+  image: string;
   desc: {
     en: string;
     de: string;
@@ -58,21 +59,22 @@ const projects: ProjectItem[] = [
     type: 'Product / Marketplace',
     badge: 'Live Web Platform',
     platform: 'Web App',
+    image: '/MietIt.png',
     desc: {
       en: 'India-focused subletting and room-sharing platform designed around simple booking, verified listings, and secure payment processing.',
       de: 'Indische Plattform für Untervermietung und Zimmer-Sharing mit einfachem Buchungs-, Verifizierungs- und Auszahlungsprozess.',
     },
     highlights: {
       en: [
-  'Built secure multi-step host & tenant verification with Firebase Authentication and OTP-based access.',
-  'Developed real-time room discovery with location filters, responsive Next.js UI and Firebase Firestore data.',
-  'Integrated Razorpay payments with booking confirmation and automated host payout workflows.'
-],
+        'Built secure multi-step host & tenant verification with Firebase Authentication and OTP-based access.',
+        'Developed real-time room discovery with location filters, responsive Next.js UI and Firebase Firestore data.',
+        'Integrated Razorpay payments with booking confirmation and automated host payout workflows.',
+      ],
       de: [
-  'Entwickelte sichere mehrstufige Verifizierung für Mieter & Vermieter mit Firebase Authentication und OTP-Zugriff.',
-  'Entwickelte eine Echtzeit-Zimmersuche mit Standortfiltern, responsiver Next.js-Oberfläche und Firebase Firestore.',
-  'Integrierte Razorpay-Zahlungen mit Buchungsbestätigung und automatisierten Auszahlungs-Workflows für Vermieter.'
-],
+        'Entwickelte sichere mehrstufige Verifizierung für Mieter & Vermieter mit Firebase Authentication und OTP-Zugriff.',
+        'Entwickelte eine Echtzeit-Zimmersuche mit Standortfiltern, responsiver Next.js-Oberfläche und Firebase Firestore.',
+        'Integrierte Razorpay-Zahlungen mit Buchungsbestätigung und automatisierten Auszahlungs-Workflows für Vermieter.',
+      ],
     },
     tags: ['Next.js', 'React', 'TypeScript', 'Firebase', 'Razorpay', 'Tailwind CSS', 'Vercel', 'SEO'],
     url: 'https://mietit.com',
@@ -85,21 +87,22 @@ const projects: ProjectItem[] = [
     type: 'Audio QC SaaS',
     badge: 'Live Audio SaaS',
     platform: 'Web & DSP',
+    image: '/sonichecks.png',
     desc: {
       en: 'Deterministic browser-based audio delivery quality control. Local DSP checks LUFS loudness, True Peak clipping, and streaming readiness.',
       de: 'Deterministische, browserbasierte Audio-Qualitätskontrolle. Lokale DSP-Prüfungen für LUFS, True Peak, Clipping und Delivery-Readiness.',
     },
     highlights: {
       en: [
-  'Built a zero-upload browser audio engine using WebAudio, Web Workers and custom DSP.',
-  'Implemented professional loudness and True Peak analysis based on ITU-R BS.1770 and EBU R128 standards.',
-  'Delivered automated PASS/FAIL QC reports with a secure Creem payment flow for Pro users.'
-],
-      en: [
-  'Built a zero-upload browser audio engine using WebAudio, Web Workers and custom DSP.',
-  'Implemented professional loudness and True Peak analysis based on ITU-R BS.1770 and EBU R128 standards.',
-  'Delivered automated PASS/FAIL QC reports with a secure Creem payment flow for Pro users.'
-],
+        'Built a zero-upload browser audio engine using WebAudio, Web Workers and custom DSP.',
+        'Implemented professional loudness and True Peak analysis based on ITU-R BS.1770 and EBU R128 standards.',
+        'Delivered automated PASS/FAIL QC reports with a secure Creem payment flow for Pro users.',
+      ],
+      de: [
+        'Lokale Audio-Dekodierung und DSP-Verarbeitung direkt im Browser ohne Cloud-Upload.',
+        'Professionelle Loudness- und True-Peak-Messung nach ITU-R BS.1770 und EBU R128 Standards.',
+        'Automatisierte PASS/FAIL QC-Prüfberichte mit sicherem Pro-Checkout.',
+      ],
     },
     tags: ['Next.js', 'TypeScript', 'WebAudio API', 'Audio DSP', 'Web Workers', 'ITU-R BS.1770'],
     url: 'https://sonichecks.com',
@@ -112,21 +115,22 @@ const projects: ProjectItem[] = [
     type: 'Coffee Discovery & Aggregator',
     badge: 'Live Aggregator',
     platform: 'Web Platform',
+    image: '/leaftobean.jpg',
     desc: {
       en: 'Specialty coffee price comparison and delivered-basket optimization, built around price-per-100g metrics and smart affiliate routing.',
       de: 'Preisvergleich für Specialty Coffee mit optimiertem Warenkorb, Preis pro 100 g und Affiliate-Weiterleitung.',
     },
     highlights: {
       en: [
-  'Built a price-normalization engine to compare coffee from different roasters on a consistent per-100g basis.',
-  'Optimized the delivered basket cost by combining product prices, shipping fees and free-shipping thresholds.',
-  'Built a scalable PostgreSQL data pipeline with Prisma and Supabase for products, variants and price history.'
-],
+        'Built a price-normalization engine to compare coffee from different roasters on a consistent per-100g basis.',
+        'Optimized the delivered basket cost by combining product prices, shipping fees and free-shipping thresholds.',
+        'Built a scalable PostgreSQL data pipeline with Prisma and Supabase for products, variants and price history.',
+      ],
       de: [
-  'Entwickelte eine Preis-Normalisierungslogik zum fairen Vergleich verschiedener Röster auf Basis von 100 g.',
-  'Optimierte die Gesamtkosten des Warenkorbs durch Kombination von Produktpreisen, Versandkosten und Freigrenzen.',
-  'Entwickelte eine skalierbare PostgreSQL-Datenpipeline mit Prisma und Supabase für Produkte, Varianten und Preishistorien.'
-],
+        'Entwickelte eine Preis-Normalisierungslogik zum fairen Vergleich verschiedener Röster auf Basis von 100 g.',
+        'Optimierte die Gesamtkosten des Warenkorbs durch Kombination von Produktpreisen, Versandkosten und Freigrenzen.',
+        'Entwickelte eine skalierbare PostgreSQL-Datenpipeline mit Prisma und Supabase für Produkte, Varianten und Preishistorien.',
+      ],
     },
     tags: ['Next.js', 'TypeScript', 'Prisma ORM', 'Supabase', 'PostgreSQL', 'Affiliate APIs'],
     url: 'https://www.leaftobean.com',
@@ -139,21 +143,22 @@ const projects: ProjectItem[] = [
     type: 'Android Game / Puzzle',
     badge: 'Google Play Store',
     platform: 'Android App',
+    image: '/2048.png',
     desc: {
       en: 'Minimalist puzzle game featuring dynamic number and tile merging mechanics, progressive difficulty, and responsive 60fps animations.',
       de: 'Minimalistisches Puzzlespiel mit dynamischer Zahlen- und Kachel-Zusammenführungsmechanik, ansteigendem Schwierigkeitsgrad und flüssigen 60fps-Animationen.',
     },
     highlights: {
       en: [
-  'Built custom puzzle-grid logic with reactive state management for the core game engine.',
-  'Created smooth drag-and-merge interactions with responsive UI animations.',
-  'Added Firebase-powered global rankings, score persistence, statistics and Google Play integration.'
-],
+        'Built custom puzzle-grid logic with reactive state management for the core game engine.',
+        'Created smooth drag-and-merge interactions with responsive UI animations.',
+        'Added Firebase-powered global rankings, score persistence, statistics and Google Play integration.',
+      ],
       de: [
-  'Entwickelte eine eigene Puzzle-Grid-Logik mit reaktivem State Management für die Game-Engine.',
-  'Entwickelte flüssige Drag-and-Merge-Interaktionen mit responsiven UI-Animationen.',
-  'Implementierte globale Rankings mit Firebase sowie Highscore-Speicherung, Statistiken und Google-Play-Integration.'
-],
+        'Entwickelte eine eigene Puzzle-Grid-Logik mit reaktivem State Management für die Game-Engine.',
+        'Entwickelte flüssige Drag-and-Merge-Interaktionen mit responsiven UI-Animationen.',
+        'Implementierte globale Rankings mit Firebase sowie Highscore-Speicherung, Statistiken und Google-Play-Integration.',
+      ],
     },
     tags: ['Kotlin', 'Android SDK', 'Firebase', 'Game Architecture', 'UI Animations', 'Google Play'],
     url: 'https://play.google.com/store/apps/details?id=com.balaji.infinitymerge',
@@ -166,21 +171,22 @@ const projects: ProjectItem[] = [
     type: 'Android Utility App',
     badge: 'Google Play Store',
     platform: 'Android App',
+    image: '/Unitconverter.png',
     desc: {
       en: 'High-accuracy multi-unit and currency calculation utility engineered with offline capability, clean Material UI, and robust edge-case validation.',
       de: 'Präziser Mehrfach-Einheiten- und Währungsumrechner mit Offline-Funktionalität, klarem Material Design und robuster Eingabevalidierung.',
     },
     highlights: {
       en: [
-  'Built a simple Android unit converter to explore mobile app development.',
-  'Implemented accurate unit conversions with clean input handling and validation.',
-  'Designed a responsive Material UI with a focus on simplicity and usability.'
-],
+        'Built a simple Android unit converter to explore mobile app development.',
+        'Implemented accurate unit conversions with clean input handling and validation.',
+        'Designed a responsive Material UI with a focus on simplicity and usability.',
+      ],
       de: [
-  'Entwickelte einen einfachen Android-Einheitenumrechner als Einstieg in die App-Entwicklung.',
-  'Implementierte präzise Einheitenumrechnungen mit sauberer Eingabeverarbeitung und Validierung.',
-  'Entwickelte eine responsive Material-Oberfläche mit Fokus auf Einfachheit und Benutzerfreundlichkeit.'
-],
+        'Entwickelte einen einfachen Android-Einheitenumrechner als Einstieg in die App-Entwicklung.',
+        'Implementierte präzise Einheitenumrechnungen mit sauberer Eingabeverarbeitung und Validierung.',
+        'Entwickelte eine responsive Material-Oberfläche mit Fokus auf Einfachheit und Benutzerfreundlichkeit.',
+      ],
     },
     tags: ['Android SDK', 'Kotlin', 'Material Design', 'Edge-Case QC', 'Google Play'],
     url: 'https://play.google.com/store/apps/details?id=com.balaji.smart_converter',
@@ -277,6 +283,10 @@ const skills: [string, string[]][] = [
   [
     'Tools',
     ['Linux', 'Git', 'OpenCV', 'Raspberry Pi', 'Arduino'],
+  ],
+  [
+    'AI',
+    ['Google Antigravity', 'Claude', 'GPT-5.6 API', 'GPT-6 Astra'],
   ],
 ];
 
@@ -1377,7 +1387,15 @@ function ProjectCard({
         <div className="art-orbit orbit-two" />
 
         <div className="art-core">
-          {p.key === 'sonichecks' ? (
+          {p.image ? (
+            <Image
+              src={p.image}
+              alt={p.title}
+              width={74}
+              height={74}
+              className="art-core-img"
+            />
+          ) : p.key === 'sonichecks' ? (
             <Zap />
           ) : p.key === 'mietit' ? (
             <Layers3 />
