@@ -111,8 +111,8 @@ const projects: ProjectItem[] = [
     featured: true,
   },
   {
-    key: 'leaftobean',
-    title: 'Leaf to Bean',
+    key: 'beantoleaf',
+    title: 'Bean to Leaf',
     category: 'web',
     type: 'Coffee Discovery & Aggregator',
     badge: 'Live Aggregator',
