@@ -949,13 +949,28 @@ export default function Home() {
               date="Jul 2021 — Sep 2023"
               company="Tata Consultancy Services (TCS)"
               role="QA System Engineer"
-              location="India"
+              location="Chennai, India"
+              documentUrl="/TCS-Experience.pdf"
               bullets={[
                 'Conducted software, system and regression testing for Android and iOS applications.',
                 'Developed and maintained automation scripts using Python, Selenium, Appium and TestNG.',
                 'Worked within Linux, Git, Jenkins and CI/CD environments.',
                 'Performed defect logging, root cause analysis and debugging support.',
               ]}
+            />
+
+            <Experience
+              date="May 2019 — June 2019"
+              company="Hindustan Aeronautics Limited (HAL)"
+              role="InPlant Design Trainee"
+              location="Banglore, India"
+              documentUrl="/HAL-Experience.pdf"
+              bullets={[
+  'Gained exposure to aerospace engineering and aviation systems.',
+  'Worked in the engine section and learned about jet engines.',
+  'Gained practical knowledge of engine components and maintenance.',
+  'Learned aerospace safety, quality and engineering procedures.',
+]}
             />
           </div>
         </div>
@@ -1271,6 +1286,7 @@ function Experience({
   company,
   role,
   location,
+  documentUrl,
   bullets,
   current = false,
 }: {
@@ -1278,6 +1294,7 @@ function Experience({
   company: string;
   role: string;
   location: string;
+  documentUrl?: string;
   bullets: string[];
   current?: boolean;
 }) {
@@ -1311,6 +1328,18 @@ function Experience({
 
           {current && (
             <span>CURRENT</span>
+          )}
+
+          {documentUrl && (
+            <a
+              className="experience-document"
+              href={documentUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Document
+              <ExternalLink size={12} />
+            </a>
           )}
         </div>
 

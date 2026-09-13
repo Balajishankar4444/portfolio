@@ -15,6 +15,7 @@ Open http://localhost:3000
 - Replace the two Android placeholder projects in `app/page.tsx` when their details are ready.
 - Update project URLs in the `projects` array.
 - Replace `public/Balaji-Shankar-CV.pdf` with the latest CV when needed.
+- Add the experience documents at `public/HAL-Experience.pdf` and `public/TCS-Experience.pdf` to enable the links in the experience timeline.
 - Update translations in `copy`.
 
 ## Deploy
