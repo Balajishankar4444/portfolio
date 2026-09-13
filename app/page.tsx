@@ -20,6 +20,7 @@ import {
   Github,
   Globe2,
   Layers3,
+  Linkedin,
   Mail,
   MapPin,
   Menu,
@@ -1231,6 +1232,24 @@ export default function Home() {
                   <small>GITHUB</small>
                   <strong>
                     github.com/Balajishankar4444
+                  </strong>
+                </div>
+
+                <ArrowUpRight />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/balaji-shankar-3a82921b2"
+                target="_blank"
+                rel="noreferrer"
+                className="contact-link"
+              >
+                <Linkedin />
+
+                <div>
+                  <small>LINKEDIN</small>
+                  <strong>
+                    linkedin.com/in/balaji-shankar-3a82921b2
                   </strong>
                 </div>
 
